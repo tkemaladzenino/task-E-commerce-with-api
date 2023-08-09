@@ -1,0 +1,269 @@
+  @font-face {
+      font-family: Manrope;
+      src: url(../../fonts/Manrope-Regular.ttf)
+  }
+
+
+  * {
+      box-sizing: border-box;
+  }
+
+  .body {
+      padding: 0;
+      margin: 0;
+  }
+
+  .card {
+      margin: auto;
+  }
+
+  header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+      height: 40px;
+      align-items: center;
+      padding-top: 40px;
+      padding-bottom: 100px;
+  }
+
+
+  #ul-menu li {
+      display: inline-block;
+      padding-right: 20px;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+      color: #101913;
+  }
+
+
+  .Login {
+      width: Hug (165px);
+      height: Hug (40px);
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+      color: #101913;
+      border: none;
+      background: transparent;
+  }
+
+  .Register {
+      width: Hug (102px);
+      height: Hug (40px);
+      padding: 12px 18px 12px 18px;
+      border-radius: 8px;
+      background: #3C9379;
+      color: #FFFFFF;
+      border: none;
+
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+
+  }
+
+
+  /* --------------------first bunner -----------------------*/
+
+  .container {
+      display: flex;
+      flex-direction: row;
+
+  }
+
+  .text {
+      width: 497px;
+      height: 292px;
+  }
+
+  .text-1 p {
+      font-family: Manrope;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 70px;
+      letter-spacing: 0.5px;
+  }
+
+  .btn-1 {
+      width: Hug (156px);
+      height: Hug (48px);
+      padding: 16px 22px 16px 22px;
+      border-radius: 8px;
+      background: #3C9379;
+      border: none;
+
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+      color: #FFFFFF;
+      margin-top: 30px;
+  }
+
+  /* -----------------------          second bunner      -------------------------*/
+  .brands {
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+  }
+
+  .collaborate {
+      display: flex;
+      justify-content: center;
+  }
+
+  .collaborate p {
+      font-family: Manrope;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: center;
+  }
+
+  .brands-logo {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  /* -----------------------          third bunner      -------------------------*/
+
+  .Categories {
+      margin-top: 70px;
+  }
+
+  .Categories p {
+      font-family: Manrope;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+  }
+
+  .two-image {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+  }
+
+  .images3 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+  }
+
+  /* -----------------------          fifth bunner      -------------------------*/
+
+  .why {
+      display: flex;
+      justify-content: center;
+      margin-top: 60px;
+      margin-bottom: 40px;
+  }
+
+  .whyChus p {
+      font-family: Manrope;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+  }
+
+  .imageEndTexts-div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 70px;
+  }
+
+  .iconText1-div {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .iconSmall1 {
+      display: flex;
+      justify-content: center;
+  }
+
+  .titleSmall1 {
+      display: flex;
+      justify-content: center;
+      font-family: Manrope;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+  }
+
+  .textSmall1 p {
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: center;
+      color: #535A56;
+  }
+
+
+  /* -----------------------          products bunner     -------------------------*/
+
+
+
+  /* -----------------------        footer     -------------------------*/
+
+
+  footer {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .product-title {
+      font-family: Manrope;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+  }
+
+  .footerTitle {
+      font-family: Manrope;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: 0.5px;
+      text-align: left;
+  }
+
+
+  .end {
+      display: flex;
+      justify-content: center;
+      padding-top: 30px;
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+  }
