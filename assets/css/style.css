@@ -175,6 +175,7 @@
       justify-content: center;
       margin-top: 60px;
       margin-bottom: 40px;
+
   }
 
   .whyChus p {
@@ -191,6 +192,9 @@
       flex-direction: row;
       justify-content: space-between;
       margin-bottom: 70px;
+
+      padding-left: 50px;
+      padding-right: 50px;
   }
 
   .iconText1-div {
@@ -227,17 +231,7 @@
 
   /* -----------------------          products bunner     -------------------------*/
 
-
-
-  /* -----------------------        footer     -------------------------*/
-
-
-  footer {
-      display: flex;
-      flex-direction: row;
-  }
-
-  .product-title {
+  .product-t {
       font-family: Manrope;
       font-size: 32px;
       font-weight: 700;
@@ -246,15 +240,54 @@
       text-align: left;
   }
 
-  .footerTitle {
+  /* -----------------------        footer     -------------------------*/
+
+
+  footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-top: 80px;
+  }
+
+
+  .footertext1 {
       font-family: Manrope;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 40px;
-      letter-spacing: 0.5px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 22px;
+      letter-spacing: 0.30000001192092896px;
       text-align: left;
   }
 
+  .ul-1 li:nth-child(1) {
+      list-style-type: none;
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+  }
+
+  ul {
+      list-style-type: none;
+  }
+
+
+
+
+  .ul-1 li:nth-child(2),
+  .ul-1 li:nth-child(3),
+  .ul-1 li:nth-child(4) {
+      font-family: Manrope;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+      color: #535A56;
+  }
 
   .end {
       display: flex;
@@ -266,4 +299,50 @@
       line-height: 20px;
       letter-spacing: 0.30000001192092896px;
       text-align: left;
+  }
+
+
+
+
+
+  /*  product  */
+
+
+  #containers {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .product-container {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      max-width: 300px;
+  }
+
+  .product-container img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+      background-color: rgb(143, 139, 134);
+  }
+
+  .product-title {
+      font-family: Manrope;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+      color: #101913;
+  }
+
+  .product-price {
+      font-family: Manrope;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 16px;
+      letter-spacing: 0.30000001192092896px;
+      text-align: left;
+      color: #101913;
   }
